@@ -34,10 +34,11 @@ int main()
     {
         for(i=0;i<9;i++)
             jingdu[i]=a[i+27];
-        
+       
         for(i=0;i<8;i++)
             weidu[i]=a[i+16];
-        weidu[10]='/0';
+        weidu[9]='\0';
+        
         for(i=0;i<6;i++)
             time[i]=b[i+7];
         
